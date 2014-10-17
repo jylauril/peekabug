@@ -1,7 +1,7 @@
 {
   "name": "peekabug",
   "version": "1.0.0",
-  "description": "Peek a minified source code to find a bug",
+  "description": "Peek into a minified source code to find a bug",
   "main": "index.coffee",
   "scripts": {},
   "repository": {
