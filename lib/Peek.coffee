@@ -166,7 +166,7 @@ class Peek
     content = null
     if data and data.length
       rows = data.split(/\n/gm)
-      if row >= rows.length
+      if row > rows.length
         throw new Error('Cannot find row ' + row + ' from ' + rows.length + ' rows.')
 
       currentRow = row - 1
