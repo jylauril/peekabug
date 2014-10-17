@@ -1,0 +1,50 @@
+{
+  "name": "peekabug",
+  "version": "1.0.0",
+  "description": "Peek a minified source code to find a bug",
+  "main": "index.coffee",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jylauril/peekabug"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "peekabug": "index.coffee"
+  },
+  "keywords": [
+    "peekabug",
+    "peek",
+    "bug",
+    "source",
+    "inspect",
+    "code",
+    "position",
+    "column",
+    "row"
+  ],
+  "author": {
+    "name": "Jyrki Laurila",
+    "url": "https://github.com/jylauril"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jylauril/peekabug/issues"
+  },
+  "homepage": "https://github.com/jylauril/peekabug",
+  "dependencies": {
+    "bluebird": "^2.3.5",
+    "commander": "^2.3.0",
+    "js-beautify": "^1.5.4",
+    "request": "^2.45.0",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-coffeelint": "^0.4.0",
+    "gulp-contribs": "0.0.2"
+  }
+}
