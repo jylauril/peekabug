@@ -2,6 +2,8 @@
 
 Peek into a minified source code to find a bug.
 
+[![NPM version](https://badge.fury.io/js/peekabug.svg)](http://badge.fury.io/js/peekabug)
+
 Ever tried to debug JavaScript code in production and all you get is a reference to an ambiguous line of minified file with a high number column location?
 Then you try to reproduce the problem in development mode and it never happens again?
 Eventually give up and download the minified source code and try to decipher the column location and context in question?
