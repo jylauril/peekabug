@@ -14,8 +14,7 @@ looks up the row and column, deciphers the current context and prettifies the sc
 
 ## How to install
 
-
-Requirements: [NodeJS](http://nodejs.org/) and [CoffeeScript](http://coffeescript.org/)
+Requirements: [NodeJS](http://nodejs.org/)
 
 ```sh
 npm install peekabug -g

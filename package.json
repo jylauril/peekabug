@@ -1,8 +1,8 @@
 {
   "name": "peekabug",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Peek into a minified source code to find a bug",
-  "main": "index.coffee",
+  "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   },
   "preferGlobal": true,
   "bin": {
-    "peekabug": "index.coffee"
+    "peekabug": "index.js"
   },
   "keywords": [
     "peekabug",
@@ -37,6 +37,7 @@
   "homepage": "https://github.com/jylauril/peekabug",
   "dependencies": {
     "bluebird": "^2.3.5",
+    "coffee-script": "^1.8.0",
     "commander": "^2.3.0",
     "js-beautify": "^1.5.4",
     "request": "^2.45.0",

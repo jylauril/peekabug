@@ -1,5 +1,3 @@
-#!/usr/bin/env coffee
-
 'use strict'
 
 _ = require('underscore')
@@ -49,6 +47,7 @@ nextUri = ->
   instances[formattedUri] = instance
   instance.fetchFile().then(->
     process.stdout.write(instance.getCursor() + '\n')
+    return
   ).then(nextUri)
 
   return
