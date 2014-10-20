@@ -96,7 +96,7 @@ Output:
 }
 ```
 ---
-Prefer to output the code non-minified? No problem:
+Prefer to output the code non-beautified? No problem:
 
 ```sh
 peekabug --uglify vendor/jquery.min.js:16:1545
