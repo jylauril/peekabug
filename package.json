@@ -1,6 +1,6 @@
 {
   "name": "peekabug",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Peek into a minified source code to find a bug",
   "main": "index.js",
   "scripts": {},
